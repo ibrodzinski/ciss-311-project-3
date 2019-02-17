@@ -16,5 +16,10 @@ namespace ciss_311_project_3
         {
             InitializeComponent();
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
